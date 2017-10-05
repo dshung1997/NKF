@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center">
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageView_lesson_image"-->
+    <!--android:layout_width="360dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/nkflogo"-->
+    <!--android:layout_marginBottom="12dp"-->
+    <!--/>-->
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/livevideo2"
+
+        />
+
+    <TextView
+        android:id="@+id/textView_lesson_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="aaaaaaaaaaa"
+
+        android:textSize="24dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView_lesson_description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="aaaaaaaaaaa"
+        android:textSize="16dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="QUIZ"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/listView_quizs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="500dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        />
+
+</LinearLayout>

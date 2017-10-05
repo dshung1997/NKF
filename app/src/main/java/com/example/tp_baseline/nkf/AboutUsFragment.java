@@ -29,8 +29,8 @@ public class AboutUsFragment extends Fragment {
 //
 //        tx.setTypeface(custom_font);
 
-        TextView textViewHistory = (TextView) v.findViewById(R.id.textView_aboutus_history);
-        TextView textViewVision = (TextView) v.findViewById(R.id.textView_aboutus_vision);
+//        TextView textViewHistory = (TextView) v.findViewById(R.id.textView_aboutus_history);
+//        TextView textViewVision = (TextView) v.findViewById(R.id.textView_aboutus_vision);
 
         String history_1 = "NKF began in early 1960s when Dr Khoo Oon Teik witnessed the agonising plight of kidney failure sufferers from close quarters. ";
         String history_2 = "In 1969, Dr Khoo and a cohort of friends successfully established Singapore's first dialysis unit at Singapore general hospital (SGH).";

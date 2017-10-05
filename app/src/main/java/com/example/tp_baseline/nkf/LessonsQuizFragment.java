@@ -51,20 +51,24 @@ public class LessonsQuizFragment extends Fragment{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                    LessonLibrary.selectedLesson = position;
 //                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube://" + "8t-J6hJInZI"));
 //                    startActivity(intent);
 
-                System.out.println("Position : " + position);
-                Log.i("Position", String.valueOf(position));
-                FragmentManager fragmentManager = getFragmentManager();
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-
-                QuizFragment temp = new QuizFragment(lessonLibrary.getLesson(position));
-
-                fragmentTransaction.replace(R.id.frame, temp).commit();
+//                System.out.println("Position : " + position);
+//                Log.i("Position", String.valueOf(position));
+//                FragmentManager fragmentManager = getFragmentManager();
+//                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//
+//                QuizFragment temp = new QuizFragment(lessonLibrary.getLesson(position));
+//
+//                fragmentTransaction.replace(R.id.frame, temp).commit();
 //                LessonVideo item = (LessonVideo) parent.getItemAtPosition(position);
 //                Intent intent = new Intent(view.getContext(), LessonFragment.class);
 //                startActivity(intent);
+                Intent intent = new Intent(view.getContext(), QuizFragment3.class);
+                startActivity(intent);
+
             }
         });
 

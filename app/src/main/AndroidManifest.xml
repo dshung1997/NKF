@@ -31,7 +31,8 @@
         <activity android:name=".LessonFragment2" />
         <activity android:name=".LessonQuizFooter" />
         <activity android:name=".LessonQuizHeader" />
-        <activity android:name=".SingleLiveVideo"></activity>
+        <activity android:name=".SingleLiveVideo" />
+        <activity android:name=".QuizFragment3"></activity>
     </application>
 
 </manifest>

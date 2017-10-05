@@ -8,12 +8,16 @@
 
     <Button
         android:id="@+id/button_quiz_submit"
+        style="@style/button_style1"
         android:layout_width="250dp"
+        android:layout_height="wrap_content"
 
         android:layout_marginLeft="85dp"
-        android:layout_marginBottom="70dp"
-        android:layout_height="wrap_content"
-        android:background="#3498db"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+
+        android:textSize="16dp"
+        android:textStyle="bold"
 
         android:text="SUBMIT" />
 
