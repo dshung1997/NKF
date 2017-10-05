@@ -8,10 +8,13 @@ import java.util.ArrayList;
 
 public class LessonLibrary {
 
+    public static int selectedLesson;
+
     ArrayList<Lesson> lessons;
 
     public LessonLibrary()
     {
+        selectedLesson = 0;
         lessons = new ArrayList<Lesson>();
         lessons.add(new Lesson(
             "Lesson 1 : What are kidneys ?",
@@ -69,6 +72,10 @@ public class LessonLibrary {
     public Lesson getLesson(int pos)
     {
         return lessons.get(pos);
+    }
+    public Lesson getCurrentLesson()
+    {
+        return lessons.get(selectedLesson);
     }
 
 //    public Boolean addLesson(Lesson ls)

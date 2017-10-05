@@ -1,5 +1,6 @@
 package com.example.tp_baseline.nkf;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;

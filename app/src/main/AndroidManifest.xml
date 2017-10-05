@@ -30,7 +30,8 @@
         <activity android:name=".SingleQuizFragment" />
         <activity android:name=".LessonFragment2" />
         <activity android:name=".LessonQuizFooter" />
-        <activity android:name=".LessonQuizHeader"></activity>
+        <activity android:name=".LessonQuizHeader" />
+        <activity android:name=".SingleLiveVideo"></activity>
     </application>
 
 </manifest>
