@@ -44,8 +44,8 @@ public class SingleLiveVideo extends YouTubeBaseActivity implements YouTubePlaye
         setContentView(R.layout.activity_single_live_video);
 
         commentList = new ArrayList<Comment>();
-        VIDEO_ID = "1B7poQI1KRA";
-        url = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId="+"gzz2_NTxZJM"+"&key=AIzaSyAgZmlXrAJT0k5KLxkRF8IWCdrdC4KRxlc";
+        VIDEO_ID = "gAwEzW37RvY";
+        url = "https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId="+"J_ub7Etch2U"+"&key=AIzaSyAgZmlXrAJT0k5KLxkRF8IWCdrdC4KRxlc";
 
 
         lv = (ListView) findViewById(R.id.listView_comments);

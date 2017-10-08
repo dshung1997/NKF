@@ -19,7 +19,7 @@ public class LessonLibrary {
         lessons.add(new Lesson(
             "Lesson 1 : What are kidneys ?",
             "9PsNgOXPUz0",
-            "Human kidneys............",
+            "Some features of kidneys",
             "https://image.ibb.co/imfkTw/les1.png",
             new Quiz[]{
                     new Quiz("What is kidney ?", new String[]{"2 bean bags", "2 bean shaped organs", "2 lung-shaped organs", "something that protects fats"}, "2 bean shaped organs"),

@@ -30,9 +30,9 @@ public class LivestreamFragment extends Fragment {
 
         ArrayList<LiveVideo> listItems = new ArrayList<LiveVideo>();
 
-        listItems.add(new LiveVideo("https://i.imgur.com/m0QFAC5.png", "Live Video 1", "What is kidney ?", ""));
-        listItems.add(new LiveVideo("https://i.imgur.com/Whd5GY7.png", "Live Video 2", "Why are kidneys important ?", ""));
-        listItems.add(new LiveVideo("https://i.imgur.com/GFDopUM.png", "Live Video 3", "Chronic Kidney Disease", ""));
+        listItems.add(new LiveVideo("https://i.imgur.com/m0QFAC5.png", "Live Video 1", "Doctor Nichole Tam", ""));
+        listItems.add(new LiveVideo("https://i.imgur.com/Whd5GY7.png", "Live Video 2", "Doctor Haziq", ""));
+        listItems.add(new LiveVideo("https://i.imgur.com/GFDopUM.png", "Live Video 3", "Doctor Rauf", ""));
 
         ListLiveVideoAdapter adapter = new ListLiveVideoAdapter(
                 v.getContext(),
